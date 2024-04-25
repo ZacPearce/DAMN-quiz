@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-  }
+}
 
 body{
     background-color: darkred;
@@ -15,7 +15,7 @@ h1{
     font-size: 70px;
 }
 
-/*container div*/
+/*quiz container div*/
 .container{
     background-color: whitesmoke;
     color: darkred;
@@ -25,16 +25,17 @@ h1{
     width: 90%;
     padding: 20px;
     border: 1px solid black;
-  }
+}
 
-  .container h2{
-  color: darkred;
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-  font-weight: 900;
-  }
+.container h2{
+    color: darkred;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 4rem;
+}
 
-  /*rules container*/
+/*rules container*/
 .rules{
     background-color: whitesmoke;
     color: darkred;
@@ -44,6 +45,7 @@ h1{
     width: 90%;
     padding: 20px;
     border: 1px solid black;
+    font-size: 1.25rem;
 }
 
 .rules h2{
@@ -54,7 +56,7 @@ h1{
     font-size: 4rem;
 }
 
-/*welcome*/
+/*welcome container*/
 .welcome{
     background-color: whitesmoke;
     color: darkred;
@@ -64,6 +66,7 @@ h1{
     width: 90%;
     padding: 20px;
     border: 1px solid black;
+    font-size: 1.25rem;
 }
 
 .welcome h2{
@@ -76,7 +79,6 @@ h1{
 
 /*images*/
 
-
 img{
     height: 15rem;
     max-width: 100%;
@@ -88,7 +90,7 @@ img{
 
 figcaption{
     text-align: center;
-    color: red;
+    color: black;
 }
 
 /*welome and rules div*/
@@ -99,4 +101,42 @@ figcaption{
     justify-content: center;
     align-items: center; 
     padding: 10px;
+}
+
+/*buttons*/
+
+#btn{
+    background-color: darkred;
+    color: whitesmoke;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover{
+  background-color: red;
+  color: whitesmoke;
+  border: 1px solid black;
+}
+
+.next-btn{
+    background-color: darkred;
+    color: whitesmoke;
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-btn:hover{
+  background-color: red;
+  color: whitesmoke;
+  border: 1px solid black;
 }
